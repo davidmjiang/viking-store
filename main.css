@@ -248,3 +248,44 @@ position:relative;
   margin-left: 15px;
 }
 
+/*
+  ========================================
+Footer
+  ========================================
+*/
+
+.footer-container{
+  height:200px;
+  background-color: black;
+}
+
+.phone, .email{
+  text-align: center;
+  color:white;
+  display: inline-block;
+  height: 20px;
+  line-height: 20px;
+}
+
+.footer-container .contact{
+  margin-top: 80px;
+  padding-top: 40px;
+  color: orange;
+  text-align: center;
+}
+
+.footer-image{
+  display: inline-block;
+  width:20px;
+  height:20px;
+  margin-left: 500px;
+}
+
+
+
+
+
+
+
+
+
