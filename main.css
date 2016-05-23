@@ -134,7 +134,117 @@ height: 50px;
 font-style: italic;
 }
 
+/*
+  ========================================
+Products Container
+  ========================================
+*/
 
+.products-container{
+  height: 600px;
+  margin-left: 250px;
+}
 
+.product{
+  margin: 10px 2px 2px 2px;
+  display: inline-block;
+}
+.product-title{
+  color: white;
+  background-color: black;
+  width: 200px;
+  padding: 10px;
+}
 
+.product-title p{
+  text-align: center;
+}
+
+.product-image{
+  width:210px;
+  height: 210px;
+  border: 5px solid gray;
+  position: relative;
+  background-size: 100% 100%;
+}
+
+#silent-night{
+  background-image: url(https://s3.amazonaws.com/viking_education/demos/viking_store_app/axe_silent_night_small.jpg);
+}
+
+#dainty-daisy{
+  background-image: url(https://s3.amazonaws.com/viking_education/demos/viking_store_app/axe_dainty_daisy_small.jpg);
+}
+
+#double-trouble{
+  background-image: url(https://s3.amazonaws.com/viking_education/demos/viking_store_app/axe_double_trouble_small.jpg)
+}
+
+#whispering-wind{
+  background-image: url(https://s3.amazonaws.com/viking_education/demos/viking_store_app/axe_whispering_wind_small.jpg)
+}
+
+#cunning-cutter{
+  background-image: url(https://s3.amazonaws.com/viking_education/demos/viking_store_app/axe_cunning_cutter_small.jpg)
+}
+
+#kingmaker{
+  background-image: url(https://s3.amazonaws.com/viking_education/demos/viking_store_app/axe_kingmaker_small.jpg)
+}
+
+.product-price{
+  position: absolute;
+  top:0px;
+  right:0px;
+  border: 2px solid black;
+  padding: 5px;
+}
+
+.product-bottom{
+  background-color: black;
+  width: 220px;
+  height: 36px;
+  position: relative;
+}
+
+.add-to-cart{
+  margin: auto;
+  position: absolute;
+  left:0;
+  right:0;
+  top:5px;
+  bottom:5px;
+  background-color: orange;
+  width: 100px;
+}
+
+.add-to-cart p{
+  color: black;
+  text-align: center;
+}
+
+/*
+  ========================================
+Nav bar
+  ========================================
+*/
+
+.nav-container{
+  margin-top: 20px;
+position:relative;
+}
+
+.nav{
+  position: absolute;
+  margin: auto;
+  left:0;
+  right:0;
+  top: 0;
+  bottom:0;
+  width: 400px;
+}
+.nav a{
+  display: inline-block;
+  margin-left: 15px;
+}
 
